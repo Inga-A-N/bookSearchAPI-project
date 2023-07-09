@@ -1,0 +1,6 @@
+.heading {
+  @import "../stylesVariables/variable.scss";
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px $crimsonRed;
+}
