@@ -1,0 +1,21 @@
+.book {
+  @import "../stylesVariables/variable.scss";
+  box-shadow: 0 0 8px $crimsonRed;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: 2em;
+  text-align: justify;
+  height: 400px;
+  width: 300px;
+  overflow-y: scroll;
+  background-color: $caramel;
+
+  img {
+    align-self: center;
+    height: 7em;
+    width: 5em;
+
+    box-shadow: 0 0 8px $crimsonRed;
+  }
+}
