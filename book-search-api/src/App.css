@@ -16,10 +16,16 @@ div .headerSearch {
 
 }
 
-body::after {
+body {
+  background: url('./assets/5711306.webp');
+  background-repeat: repeat;
+}
+
+/* body::after {
   content: "";
   background: url('./assets/5711306.webp');
   background-size: cover;
+  background-repeat: repeat-y;
   opacity: 0.9;
   top: 0;
   left: 0;
@@ -27,7 +33,7 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;
-}
+} */
 
 .logo {
   height: 6em;
